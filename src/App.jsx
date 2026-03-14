@@ -21,42 +21,21 @@ import {
 } from "lucide-react";
 
 // ─── PRESET ROLE ICONS ───────────────────────────────────────
-import _dps1 from "./Assets/roles/dps1.png";
-import _dps2 from "./Assets/roles/dps2.png";
-import _dps3 from "./Assets/roles/dps3.png";
-import _dps4 from "./Assets/roles/dps4.png";
-import _dps5 from "./Assets/roles/dps5.png";
-import _dps6 from "./Assets/roles/dps6.png";
-import _dps7 from "./Assets/roles/dps7.png";
-import _dps8 from "./Assets/roles/dps8.png";
-import _healer1 from "./Assets/roles/healer1.png";
-import _healer2 from "./Assets/roles/healer2.png";
-import _support1 from "./Assets/roles/support1.png";
-import _support2 from "./Assets/roles/support2.png";
-import _support3 from "./Assets/roles/support3.png";
-import _support4 from "./Assets/roles/support4.png";
-import _tank1 from "./Assets/roles/tank1.png";
-import _tank2 from "./Assets/roles/tank2.png";
-import _tank3 from "./Assets/roles/tank3.png";
-
 const PRESET_ICONS = {
-  mdps:       [_dps1,_dps2,_dps3,_dps4,_dps5,_dps6,_dps7,_dps8],
-  rdps:       [_dps1,_dps2,_dps3,_dps4,_dps5,_dps6,_dps7,_dps8],
-  healer:     [_healer1,_healer2],
-  support:    [_support1,_support2,_support3,_support4],
-  tank:       [_tank1,_tank2,_tank3],
-  frontline:  [_tank1,_tank2,_tank3],
-  shotcaller: [_support1,_support2,_support3,_support4],
-  clapper:    [_dps1,_dps2,_dps3,_dps4],
+  mdps:       ["/assets/roles/dps1.png","/assets/roles/dps2.png","/assets/roles/dps3.png","/assets/roles/dps4.png","/assets/roles/dps5.png","/assets/roles/dps6.png","/assets/roles/dps7.png","/assets/roles/dps8.png"],
+  rdps:       ["/assets/roles/dps1.png","/assets/roles/dps2.png","/assets/roles/dps3.png","/assets/roles/dps4.png","/assets/roles/dps5.png","/assets/roles/dps6.png","/assets/roles/dps7.png","/assets/roles/dps8.png"],
+  healer:     ["/assets/roles/healer1.png","/assets/roles/healer2.png"],
+  support:    ["/assets/roles/support1.png","/assets/roles/support2.png","/assets/roles/support3.png","/assets/roles/support4.png"],
+  tank:       ["/assets/roles/tank1.png","/assets/roles/tank2.png","/assets/roles/tank3.png"],
+  frontline:  ["/assets/roles/tank1.png","/assets/roles/tank2.png","/assets/roles/tank3.png"],
+  shotcaller: ["/assets/roles/support1.png","/assets/roles/support2.png","/assets/roles/support3.png","/assets/roles/support4.png"],
+  clapper:    ["/assets/roles/dps1.png","/assets/roles/dps2.png","/assets/roles/dps3.png","/assets/roles/dps4.png"],
 };
 
 // ─── PRESET MAPS ─────────────────────────────────────────────
-import _mapSnow  from "./Assets/maps/Snow_Map.png";
-import _mapSwamp from "./Assets/maps/Swamp_Map.png";
-
 const PRESET_MAPS = [
-  { label: "Snow",  src: _mapSnow  },
-  { label: "Swamp", src: _mapSwamp },
+  { label: "Snow",  src: "/assets/maps/Snow_Map.png"  },
+  { label: "Swamp", src: "/assets/maps/Swamp_Map.png" },
 ];
 const THEMES = {
   tactical: {
